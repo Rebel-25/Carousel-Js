@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Js_Slider</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="corousel" class="corousel">
+
+  <ul id="slides" class="slides">
+    <li class="slide active" style="background-color:black;background-image:url(assets/img/budapest-1959378_1920.jpg);"></li> 
+    <li class="slide" style="background-color: black; background-image: url(assets/img/london-bridge-1143467_1920.jpg);"></li>
+    <li class="slide" style="background-color: black; background-image: url(assets/img/city-2877623_1920.jpg);"> </li>
+    <li class="slide" style="background-color: black; background-image:url(assets/img/london-eye-945497_1920.jpg)"></li>
+    <li class="slide" style="background-color: black; background-image:url(assets/img/seine-1567383_1920.jpg);"></li>
+  </ul>
+  <ul id="indicators-container" class="indicators" >
+    <li class="indicator  active" data-slide-to ="0"></li>
+    <li class="indicator" data-slide-to ="1"></li>
+    <li class="indicator" data-slide-to ="2"></li>
+    <li class="indicator" data-slide-to ="3"></li>
+    <li class="indicator" data-slide-to ="4"></li>
+  </ul> 
+  <div class="controls" id="controls-container">
+    <button id="pause-btn" class="control"><i class="far fa-pause-circle"></i></button>
+    <button id="prev-btn" class="control"><i class="fas fa-angle-left"></i></button>
+    <button id="next-btn" class="control"><i class="fas fa-angle-right"></i></button>
+  </div>
+</div>
+<script src="assets/js/carosel-constructor.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

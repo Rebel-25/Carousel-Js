@@ -6,7 +6,7 @@
     },
     "extends": [
         "eslint:recommended"
-        //    "eslint:airbnb/base"
+        //"eslint:airbnb/base"
     ],
     "parserOptions": {
         "ecmaVersion": 12,
